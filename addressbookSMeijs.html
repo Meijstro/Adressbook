@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Addressbook</title>
+  <link rel="stylesheet" href="addressbook.css">
+  <script type="text/javascript" src="addressbook.js"></script>
+</head>
+<body>
+  <div id="navigation">
+    <ul class="nav">
+        <li><button id="overviewButton">Contacts</a></li>
+        <li><button id= "newButton">Add Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="newForm" id="newForm">
+    <h1>Add contact</h1>
+
+    <label>
+        <input type="text" name="person" id="name" placeholder="enter name" />
+    </label> </br>
+    <label>
+        <input type="text" name="phone" id="phone" placeholder="0612345678" />
+    </label> </br>
+    <label>
+        <input type="text" name="email" id="email" placeholder="name@example.com" />
+    </label> </br>
+
+    <div class= "buttons">
+        <button id="addButton">Add</button>
+        <button id="cancelButton">Cancel</button>
+    </div>
+  </div>
+
+  <div class="overviewForm" id="overviewForm">
+    <div id="noContacts">No contacts yet.</div>
+		<!-- This is where the contacts will be stored -->
+	</div>
+</body>
+</html>

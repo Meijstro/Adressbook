@@ -1,0 +1,35 @@
+
+body{
+  background-color: #008e5a;
+  color: white;
+  font-family: verdana;
+}
+
+ul{
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  font-family: verdana;
+  text-align: center;
+}
+.overviewForm{
+  text-align: center;
+}
+.newForm{
+  display:none;
+  text-align: center;
+}
+.nav{
+  padding:0;
+}
+.buttons{
+  padding-top: 20px;
+  text-align: center;
+}
+.addressEntry {
+
+  text
+}
